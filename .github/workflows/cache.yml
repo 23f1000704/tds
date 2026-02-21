@@ -13,6 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: 23f1000704@ds.study.iitm.ac.in
+        run: echo "Hello, this step contains the required email"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
