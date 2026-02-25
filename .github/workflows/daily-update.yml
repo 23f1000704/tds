@@ -23,7 +23,8 @@ jobs:
 
       - name: 23f1000704@ds.study.iitm.ac.in - Create daily commit
         run: |
-          echo "Last updated on $(date -u)" >> daily-log.txt
+          echo "Run ID: $GITHUB_RUN_ID" >> daily-log.txt
+          echo "Timestamp: $(date -u)" >> daily-log.txt
           git add daily-log.txt
-          git commit -m "Automated daily update $(date -u)" || echo "No changes to commit"
+          git commit -m "Automated daily update - $GITHUB_RUN_ID"
           git push
