@@ -1,0 +1,6 @@
+{
+  "prompt": "A realistic cinematic scene inside a tailor shop, where a tailor is fitting an extremely exaggerated, overly detailed custom suit perfectly onto one person, the suit tightly molded to every curve and feature of that individual, while several other people nearby are unable to wear similar suits that look distorted or unusable on them, natural lighting, highly realistic, no text, no diagrams, no labels",
+  "model": "DALL·E 3",
+  "concept": "overfitting",
+  "metaphor": "A suit tailored perfectly to one individual but unusable for others represents a model that fits training data perfectly but fails to generalize."
+}
